@@ -33,7 +33,7 @@ for (let i=0; i< btnminus.length; i++){
     let minus=btnminus[i];
     minus.addEventListener("click", function() {
         if(minus.nextElementSibling.value>1){
-        minus.nextElementSibling.vaule--;
+        minus.nextElementSibling.value--;
         }
         total();
         total1();
